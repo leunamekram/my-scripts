@@ -19,3 +19,6 @@ relay module to be controlled directly over ESP8266.
 
 ## ESP-01 Web Server
 https://create.arduino.cc/projecthub/ROBINTHOMAS/esp8266-esp-01-webserver-7248ca
+
+## Correct Boot-Up for Flash Download of New Firmware
+1. Pull-down **GPIO0** to GND then toggle **RESET PIN** or do a **POWER CYCLE** of the board to enable flash downloading.
